@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.8" pages="3">
   <diagram name="第 1 页" id="hkFTQ6nqRGRFWogeTZOQ">
-    <mxGraphModel dx="790" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,29 +143,11 @@
         <mxCell id="Gw7uP9N_sIeIxdFlUJaT-62" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;AutoCorrelation：B×(S/8)×D&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;out： 32×512×12&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="960" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Gw7uP9N_sIeIxdFlUJaT-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Gw7uP9N_sIeIxdFlUJaT-65" target="Gw7uP9N_sIeIxdFlUJaT-67">
+        <mxCell id="P2yUVZ9Q4iQvCqlbJV3_-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Gw7uP9N_sIeIxdFlUJaT-65" target="P2yUVZ9Q4iQvCqlbJV3_-13">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gw7uP9N_sIeIxdFlUJaT-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Gw7uP9N_sIeIxdFlUJaT-65" target="Gw7uP9N_sIeIxdFlUJaT-69">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1150" y="985" />
-              <mxPoint x="1150" y="953" />
-              <mxPoint x="1383" y="953" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="Gw7uP9N_sIeIxdFlUJaT-65" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1090" y="972.5" width="25" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="Gw7uP9N_sIeIxdFlUJaT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="Gw7uP9N_sIeIxdFlUJaT-67" target="Gw7uP9N_sIeIxdFlUJaT-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Gw7uP9N_sIeIxdFlUJaT-67" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GRU：B×(S/8)×D&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;如 1×32*521×12&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="965" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Gw7uP9N_sIeIxdFlUJaT-69" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="972.5" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Gw7uP9N_sIeIxdFlUJaT-75" value="12 个 512 之间的相关关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="883" y="1050" width="167" height="50" as="geometry" />
@@ -268,6 +250,15 @@
         </mxCell>
         <mxCell id="P2yUVZ9Q4iQvCqlbJV3_-9" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 64, 255), rgb(237, 237, 237));&quot;&gt;GRU h_n：&lt;/span&gt;num_gru_layers×BD×d_model&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;1×(32×321)×512&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1422.5" y="779.5" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P2yUVZ9Q4iQvCqlbJV3_-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="P2yUVZ9Q4iQvCqlbJV3_-13" target="P2yUVZ9Q4iQvCqlbJV3_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P2yUVZ9Q4iQvCqlbJV3_-13" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;permute：BD×(seg_x_num)×(seg_x_len)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;如 (32×321)&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;×2&lt;/span&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;×(12)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="950" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P2yUVZ9Q4iQvCqlbJV3_-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(255, 64, 255), rgb(237, 237, 237));&quot;&gt;GRU h_n：&lt;/span&gt;num_gru_layers×BD×d_model&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;1×(32×321)×512&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="950" width="220" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
