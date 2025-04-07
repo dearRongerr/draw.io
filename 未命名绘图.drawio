@@ -1382,7 +1382,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6FQPcIPyrMOvUHCQ-cn6" name="第 7 页">
-    <mxGraphModel dx="3987" dy="2173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2407" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1706,10 +1706,13 @@
           <mxGeometry x="1820" y="450" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-12" value="x_up3：[B,S/2,d_model]&lt;div&gt;out：32×48×512&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="350" width="150" height="62.12" as="geometry" />
+          <mxGeometry x="2300" y="200" width="150" height="62.12" as="geometry" />
         </mxCell>
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-13" value="x_up2：[B,S,d_model]&lt;div&gt;out：32×96×512&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="2000" y="220" width="150" height="62.12" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-14" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="461" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
