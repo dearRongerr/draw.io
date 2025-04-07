@@ -1382,7 +1382,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6FQPcIPyrMOvUHCQ-cn6" name="第 7 页">
-    <mxGraphModel dx="1775" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1942" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1772,6 +1772,9 @@
             <mxPoint x="-37" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-69" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Jlsq_t9vRoEDyt_ahO0e-14" target="Jlsq_t9vRoEDyt_ahO0e-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-14" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2320" y="459.13" width="30" height="30" as="geometry" />
         </mxCell>
@@ -1795,6 +1798,11 @@
         </mxCell>
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Jlsq_t9vRoEDyt_ahO0e-38" target="Jlsq_t9vRoEDyt_ahO0e-42">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="Jlsq_t9vRoEDyt_ahO0e-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3420" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-38" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3190" y="335.88" width="30" height="30" as="geometry" />
@@ -1837,8 +1845,14 @@
         <mxCell id="Jlsq_t9vRoEDyt_ahO0e-62" value="索引历史最新时间步&lt;div&gt;B,d_model&lt;br&gt;&lt;div&gt;out：32×512&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="2010" y="600" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-65" value="预测：[B,predict/8*enc_in]&lt;div&gt;out：32,512×321&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#e1d5e7;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="2210" y="610" width="155" height="40" as="geometry" />
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-65" value="预测：[B,predict/8*enc_in]&lt;div&gt;out：32,(pred_len)/8*enc_in&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#ffff88;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="605" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-68" value="预测：[B,predict/4*enc_in]&lt;div&gt;out：32,(pred_len)/4*enc_in&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#ffff88;sketch=1;curveFitting=1;jiggle=2;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="454.13" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlsq_t9vRoEDyt_ahO0e-71" value="预测：[B,predict/2*enc_in]&lt;div&gt;out：32,(pred_len)/2*enc_in&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=#ffff88;sketch=1;curveFitting=1;jiggle=2;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3422.5" y="325.88" width="155" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
