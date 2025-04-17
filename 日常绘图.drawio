@@ -1,16 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.12">
   <diagram name="第 1 页" id="zmtRy614ouxN29PpvFqP">
-    <mxGraphModel dx="948" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="910" y="60" width="310" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-1" target="7BCIaPTf3JKw8-ruJ_gj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-1" value="self.freq_decomposer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-1" value="self.freq_decomposer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="40" y="190" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-6" value="&lt;span style=&quot;white-space: normal;&quot;&gt;FrequencyDecomposer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-6" value="&lt;span style=&quot;white-space: normal;&quot;&gt;FrequencyDecomposer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=light-dark(#0433ff, #ededed);" vertex="1" parent="1">
           <mxGeometry x="100" y="150" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-11" target="7BCIaPTf3JKw8-ruJ_gj-18">
@@ -19,10 +22,10 @@
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-11" target="7BCIaPTf3JKw8-ruJ_gj-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-11" value="(wavelet_decomposers)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-11" value="(wavelet_decomposers)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="300" y="190" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-13" value="ModuleList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-13" value="ModuleList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=light-dark(#0433ff, #ededed);" vertex="1" parent="1">
           <mxGeometry x="450" y="150" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-14" target="7BCIaPTf3JKw8-ruJ_gj-24">
@@ -31,7 +34,7 @@
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-14" target="7BCIaPTf3JKw8-ruJ_gj-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-14" value="&amp;nbsp;(0): SimpleWaveletDecomposition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-14" value="&amp;nbsp;(0): SimpleWaveletDecomposition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="640" y="120" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-18" target="7BCIaPTf3JKw8-ruJ_gj-27">
@@ -40,7 +43,7 @@
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="1" source="7BCIaPTf3JKw8-ruJ_gj-18" target="7BCIaPTf3JKw8-ruJ_gj-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-18" value="&amp;nbsp;(1): SimpleWaveletDecomposition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-18" value="&amp;nbsp;(1): SimpleWaveletDecomposition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="640" y="280" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-21" value="&amp;nbsp;(low_pass)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
@@ -54,6 +57,9 @@
         </mxCell>
         <mxCell id="7BCIaPTf3JKw8-ruJ_gj-28" value="(high_pass)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="940" y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7BCIaPTf3JKw8-ruJ_gj-31" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (0): ReflectionPad1d((2, 1))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1): Conv1d(7, 7, kernel_size=(4,), stride=(1,), groups=7)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2): GELU()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (3): InstanceNorm1d(7, eps=1e-05, momentum=0.1, affine=False, track_running_stats=False)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=18;dashed=1;strokeColor=#d79b00;strokeWidth=3;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="790" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
